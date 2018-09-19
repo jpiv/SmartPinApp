@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="net.openid:appauth-0.4.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appauth-0.4.1.aar/97b0053c8e80d6f18a5740cc5329cc1a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appauth-0.4.1.aar/97b0053c8e80d6f18a5740cc5329cc1a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
