@@ -1,5 +1,5 @@
 import React from 'react';
-import { Asset } from 'expo';
+import { Asset } from 'expo-asset';
 import { StackActions, withNavigation } from 'react-navigation'
 import {
   Image,

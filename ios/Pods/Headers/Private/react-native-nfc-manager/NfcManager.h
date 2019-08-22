@@ -1,1 +1,0 @@
-../../../../../node_modules/react-native-nfc-manager/ios/NfcManager.h

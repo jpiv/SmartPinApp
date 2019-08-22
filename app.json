@@ -4,7 +4,7 @@
     "description": "A very interesting project.",
     "slug": "SmartPinApp",
     "privacy": "public",
-    "sdkVersion": "29.0.0",
+    "sdkVersion": "34.0.0",
     "platforms": [
       "ios",
       "android"
@@ -31,8 +31,8 @@
     },
     "isDetached": true,
     "detach": {
-      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.7.8-sdk29.0.0-02bd60c8-f134-4f5e-b5c0-1898ffb57231.tar.gz",
-      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.7.2-sdk29.0.0-54e8f46d-36a6-460f-b0f9-e1043f28b215.tar.gz"
+      "iosExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/ios-v2.12.4-sdk34.0.0-ee3e7450-9ec2-4836-8c8c-335483e62917.tar.gz",
+      "androidExpoViewUrl": "https://s3.amazonaws.com/exp-exponent-view-code/android-v2.12.2-sdk34.0.0-767c7d3b-87b6-4f80-a9af-92ce67e2a49d.tar.gz"
     },
     "scheme": "exp4b715b0a49794653a039278179fd9ed6",
     "android": {

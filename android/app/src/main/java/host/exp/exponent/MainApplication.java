@@ -1,18 +1,23 @@
 package host.exp.exponent;
 
-
 import com.facebook.react.ReactPackage;
+
+import org.unimodules.core.interfaces.Package;
 
 import java.util.Arrays;
 import java.util.List;
 
-import expolib_v1.okhttp3.OkHttpClient;
+import expo.loaders.provider.interfaces.AppLoaderPackagesProviderInterface;
+import host.exp.exponent.generated.BasePackageList;
+import okhttp3.OkHttpClient;
 
 // Needed for `react-native link`
 // import com.facebook.react.ReactApplication;
+import com.swmansion.reanimated.ReanimatedPackage;
 import community.revteltech.nfc.NfcManagerPackage;
+import com.swmansion.gesturehandler.react.RNGestureHandlerPackage;
 
-public class MainApplication extends ExpoApplication {
+public class MainApplication extends ExpoApplication implements AppLoaderPackagesProviderInterface<ReactPackage> {
 
   @Override
   public boolean isDebug() {
@@ -31,14 +36,13 @@ public class MainApplication extends ExpoApplication {
     );
   }
 
-  @Override
-  public String gcmSenderId() {
-    return getString(R.string.gcm_defaultSenderId);
+  public List<Package> getExpoPackages() {
+    return new BasePackageList().getPackageList();
   }
 
   @Override
-  public boolean shouldUseInternetKernel() {
-    return BuildVariantConstants.USE_INTERNET_KERNEL;
+  public String gcmSenderId() {
+    return getString(R.string.gcm_defaultSenderId);
   }
 
   public static OkHttpClient.Builder okHttpClientBuilder(OkHttpClient.Builder builder) {

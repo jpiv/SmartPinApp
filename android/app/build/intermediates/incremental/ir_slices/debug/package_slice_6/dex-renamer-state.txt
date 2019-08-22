@@ -1,0 +1,4 @@
+#Thu Aug 22 04:27:56 EDT 2019
+base.0=/Users/johnpizzo/SmartPinApp/android/app/build/intermediates/transforms/dexMerger/debug/6
+path.0=classes.dex
+renamed.0=classes.dex
